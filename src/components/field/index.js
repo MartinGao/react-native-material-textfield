@@ -251,7 +251,7 @@ export default class TextField extends PureComponent {
   onChangeText(text) {
     let { onChangeText } = this.props;
 
-    this.setState({ text });
+    // this.setState({ text });
 
     if ('function' === typeof onChangeText) {
       onChangeText(text);
